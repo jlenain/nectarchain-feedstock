@@ -26,6 +26,7 @@ requirements:
     - ctapipe-io-nectarcam =0.2
     - h5py
     - lmfit
+    - numpy <2.4
     - pandas
     - pyqt
     - pyqtgraph
