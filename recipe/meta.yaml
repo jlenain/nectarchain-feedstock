@@ -1,5 +1,5 @@
 {% set name = "nectarchain" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nectarchain-{{ version }}.tar.gz
-  sha256: f4e7c22def4a633a4170a42c5ee25227f90749848549b0a5be429a1f1c6ee078
+  sha256: b43c823b598d42b669db00b5a97b61e4caeaa0c45c4f9dc1ac05e76dbf106425
 
 build:
   number: 0
@@ -31,6 +31,7 @@ requirements:
     - pyqt
     - pyqtgraph
     - scipy
+    - watchdog
     - zeo
     - zodb
 
